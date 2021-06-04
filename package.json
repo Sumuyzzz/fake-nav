@@ -7,5 +7,6 @@
   "devDependencies": {
     "cssnano": "^5.0.5",
     "postcss": "^8.3.0"
-  }
+  },
+  "repository": "git@github.com:Sumuyzzz/fake-nav.git"
 }
