@@ -1,0 +1,206 @@
+html {
+    font-size: 100px;
+}
+
+p,
+dl,
+dd {
+    margin: 0;
+}
+
+
+
+body {
+    margin: 0;
+    background-color: #fff;
+    font-size: 0.12rem;
+    line-height: 1.5;
+    color: #222;
+}
+
+button,
+input {
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear:before,
+.clear:after {
+    content: "";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.header {
+    text-align: center;
+    font-size: 0.18rem;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.header-from {
+    display: flex;
+    margin: 0 30px;
+}
+
+.header-input,
+.header-button {
+    line-height: 3;
+    padding: 0 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.header-input {
+    flex: 1;
+    margin-right: 10px;
+    background-color: #fff;
+    border: #aaa 1px solid;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.header-button {
+    color: #fff;
+    background-color: #1a73e8;
+    cursor: pointer;
+}
+
+.main {
+    position: relative;
+    font-size: 0.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+.main-nav>dl {
+    position: relative;
+    box-sizing: border-box;
+    width: 46%;
+    margin: 2%;
+    padding: 16px 0;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.main-add {
+    width: 50%;
+    margin: 2%;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    fill: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+@media (min-width: 500px) {
+
+    .main-nav dl {
+        width: 23%;
+        margin: 1%;
+    }
+
+    .main-add {
+        width: 25%;
+        margin: 1%;
+    }
+
+}
+
+.main-nav dt {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.main-nav dd {
+    font-size: 1.3ch;
+}
+
+.main-nav-more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    fill: rgba(0, 0, 0, 0.4);
+}
+
+.module {
+    display: none;
+}
+
+.dialog {
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    right: 20px;
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #eee;
+}
+
+.dialog-input {
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 3;
+    padding: 0 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.16rem;
+}
+
+.dialog-button .button {
+    cursor: pointer;
+    padding: 0px 10px;
+    border-radius: 4px;
+    font-size: 0.16rem;
+    line-height: 0.32rem;
+    margin: 20px 10px 10px;
+}
+
+.button_delete {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.button_done {
+    color: #fff;
+    background-color: #0069d9;
+}
+
+.button_cancel {
+    color: #212529;
+    background-color: #aaa;
+}
